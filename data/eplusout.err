@@ -1,0 +1,102 @@
+Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2024.12.03 22:10,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=UNTITLED (01-01:31-12)  (01-01:31-12)
+   **   ~~~   ** ..Weather File Location=Larnaca/Larnax Airp. - - MN8 WMO#=176090
+   **   ~~~   ** ..due to location differences, Latitude difference=[10.34] degrees, Longitude difference=[25.98] degrees.
+   **   ~~~   ** ..Time Zone difference=[1.0] hour(s), Elevation difference=[99.30] percent, [285.00] meters.
+   ** Warning ** GetSurfaceData: Construction PROJECT PARTITION of interzone surface BLOCK1:OFFICEXSWX1F_PARTITION_2_0_0 does not have the same materials in the reverse order as the construction PROJECT PARTITION_REV of adjacent surface BLOCK1:OFFICEXSEX1F_PARTITION_4_0_10002
+   **   ~~~   ** or the properties of the reversed layers are not correct due to differing layer front and back side values
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...if the two zones are expected to have significantly different temperatures, the proper "reverse" construction should be created.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Entered Zone Floor Areas differ from calculated Zone Floor Area(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ************* Note that the following warning(s) may/will occur if you have not enclosed your zone completely.
+   ** Warning ** Entered Zone Volumes differ from calculated zone volume(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CheckUsedConstructions: There are 9 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="11001" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="21001" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="31001" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="41001" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="51001" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="61001" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="11002" and referenes an object named: ""
+   ** Warning ** AssociateWindowShadingControlWithDaylighting: Daylighting object name used in WindowShadingControl not found.
+   **   ~~~   ** ..The WindowShadingControl object="11003" and referenes an object named: ""
+   ** Warning ** Detailed daylighting will not be done for zone=BLOCK1:CORRIDORX1F
+   **   ~~~   ** because it has no associated exterior windows.
+   ** Warning ** Detailed daylighting will not be done for zone=BLOCK2:CORRIDORX2F
+   **   ~~~   ** because it has no associated exterior windows.
+   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   **   ~~~   **  Routine=CalcPurchAirLoads, During Sizing, Environment=WINTER DESIGN DAY IN UNTITLED (01-01:31-12), at Simulation time=01/15 24:00 - 24:10
+   **   ~~~   **  Input Temperature=-529.56
+   ** Warning ** Output:Meter: invalid Key Name="NATURALGAS:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK1:OFFICEXSWX1F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK1:OFFICEXSEX1F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK1:OFFICEXNWX1F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK1:OFFICEXNEX1F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK1:CORRIDORX1F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK2:OFFICEXSWX2F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK2:OFFICEXSEX2F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK2:OFFICEXNWX2F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK2:OFFICEXNEX2F#07:INTERIOREQUIPMENT*" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRIC EQUIPMENT#BLOCK2:CORRIDORX2F#07:INTERIOREQUIPMENT*" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=*, VarName=FAN ELECTRICITY RATE, Frequency=TimeStep
+   ************* Key=*, VarName=WATER USE EQUIPMENT HEATING RATE, Frequency=TimeStep
+   ************* Key=*, VarName=ZONE RADIANT HVAC HEATING RATE, Frequency=TimeStep
+   ************* Key=*, VarName=ZONE MIXING SENSIBLE HEAT LOSS ENERGY, Frequency=TimeStep
+   ************* Key=*, VarName=ZONE MIXING SENSIBLE HEAT GAIN ENERGY, Frequency=TimeStep
+   ************* Key=*, VarName=ZONE MIXING STANDARD DENSITY VOLUME FLOW RATE, Frequency=TimeStep
+   ************* Key=*, VarName=OTHER EQUIPMENT NATURALGAS RATE, Frequency=TimeStep
+   ************* Key=*, VarName=ZONE LIGHTS ELECTRIC POWER, Frequency=TimeStep
+   ************* There are 1 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 7 unused schedules in input.
+   ************* There are 3 unused week schedules in input.
+   ************* There are 5 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   *************  **   ~~~   **   This error occurred 6 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 6 times.
+   *************  **   ~~~   **   Max=-359.053024 C  Min=-1464.539246 C
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 15 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 34 Warning; 0 Severe Errors; Elapsed Time=00hr 01min 38.63sec
