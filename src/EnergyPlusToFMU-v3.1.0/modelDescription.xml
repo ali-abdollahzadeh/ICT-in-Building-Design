@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is file 'modelDescription.xml' for input '_fmu-export-actuator.idf'. -->
+<fmiModelDescription  fmiVersion="2.0"
+  modelName="_fmu-export-actuator.idf"
+  guid="2e0cc4f4d860824323bbc6e1d8c6f1e4"
+  description="Automatically generated from EnergyPlus input file _fmu-export-actuator.idf"
+  generationTool="idf-to-fmu-export-prep-win.exe"
+  generationDateAndTime="2024-10-03T07:52:47Z"
+  variableNamingConvention="flat"
+  numberOfEventIndicators="0">
+  <!-- Note guid is an md5 checksum of the IDF file. -->
+  <!-- EnergyPlus provided as tool (as opposed to source code or DLL). -->
+  <CoSimulation
+      modelIdentifier="_fmu_export_actuator"
+      needsExecutionTool="false"
+      canHandleVariableCommunicationStepSize="false"
+      canInterpolateInputs="false"
+      maxOutputDerivativeOrder="0"
+      canGetAndSetFMUstate="false"
+      canSerializeFMUstate="false"
+      canRunAsynchronuously="false"
+      canBeInstantiatedOnlyOncePerProcess="false"
+      canNotUseMemoryManagementFunctions="true"
+      providesDirectionalDerivative="false"/>
+  <!-- Exposed model variables. -->
+  <ModelVariables>
+    <!-- Note valueReferences are (1, 2, 3...) for causality="input" (to E+). -->
+    <!-- Note valueReferences are (100001, 100002, 100003...) for "output" (from E+). -->
+    <!-- Note the order of valueReferences should match the order of elements in file 'variables.cfg'. -->
+    <!-- Index for next variable is '1'. -->
+    <ScalarVariable  name="yShade"  valueReference="1"
+      variability="continuous"  causality="input"
+      description="IDF line 1691">
+      <Real  start="6"/>
+    </ScalarVariable>
+    <!-- Index for next variable is '2'. -->
+    <ScalarVariable  name="TRoo"  valueReference="100001"
+      variability="continuous"  causality="output"
+      description="IDF line 1678">
+      <Real/>
+    </ScalarVariable>
+    <!-- Index for next variable is '3'. -->
+    <ScalarVariable  name="ISolExt"  valueReference="100002"
+      variability="continuous"  causality="output"
+      description="IDF line 1683">
+      <Real/>
+    </ScalarVariable>
+  </ModelVariables>
+  <!-- ModelStructure details for co-simulation. -->
+  <ModelStructure>
+    <!-- Outputs variables of the FMU. -->
+    <Outputs>
+      <Unknown  index="2"/>
+      <Unknown  index="3"/>
+    </Outputs>
+  </ModelStructure>
+</fmiModelDescription>
